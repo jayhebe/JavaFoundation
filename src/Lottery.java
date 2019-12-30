@@ -33,7 +33,7 @@ public class Lottery
         }
         else
         {
-            System.out.println("Sorry, you are not the chosen one.");
+            System.out.println("Sorry, you are not the chosen one :(");
         }
     }
 }
