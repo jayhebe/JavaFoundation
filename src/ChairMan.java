@@ -96,5 +96,21 @@ public class ChairMan
 //        a = b;
 //        b = temp;
 //        System.out.println("a = " + a + ", b = " + b);
+
+//        int[] arr = new int[5];
+//        System.out.println(arr.length);
+//        arr[0] = 1;
+//        arr[1] = 2;
+//        System.out.println(arr.length);
+//        arr[1] = 0;
+//        System.out.println(arr.length);
+
+        String[] strings = new String[5];
+        System.out.println(strings.length);
+        strings[0] = "hehe";
+        strings[1] = "haha";
+        System.out.println(strings.length);
+        strings[1] = null;
+        System.out.println(strings.length);
     }
 }
