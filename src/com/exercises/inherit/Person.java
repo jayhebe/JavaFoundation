@@ -21,4 +21,23 @@ public class Person
     {
         System.out.println("Sleep");
     }
+
+    @Override
+    public boolean equals(Object obj)
+    {
+        System.out.println("Person equals()");
+
+        if (this == obj)
+        {
+            return true;
+        }
+
+        if (obj instanceof Person)
+        {
+            Person p = (Person)obj;
+            return this.name.equals(p.name) && this.age == p.age;
+        }
+
+        return false;
+    }
 }
